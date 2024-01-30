@@ -1,18 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2b283a;
+  margin: 0;
+}
+
+header {
+  background: #5f29a4;
+  padding: 45px 0;
+}
 /* 
 Challenge:
-1. Create a body selector.
-2. Set the base font size and text color to 
-   the values given on the slide.
-3. Bring in "Roboto" from Google Fonts and 
-   set it as the default font. Make sure 
-   browsers will fall back on a sans-serif 
-   font if Roboto is unavailable.
-4. Override HTML's default margin.
+1. Add CSS so the text in the first section 
+   renders correctly. 
+⚠️ Watch out for the amount of white space 
+   you have between the start of the section 
+   and the h2.
+⚠️ Don't write too much code!
 */
- 
- 
+h1 {
+  font-size: 36px;
+  color: whitesmoke;
+  margin: 0;
+}
 
- 
- 
+h2 {
+  margin-top: 0;
+}
 
+h3 {
+  font-size: 20px;
+  color: #d0aaff;
+  margin: 0;
+}
 
+section {
+  padding: 45px 0;
+}
+.mai-image {
+  width: 100%;
+}
