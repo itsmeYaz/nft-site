@@ -25,6 +25,10 @@ h3 {
   margin: 0;
 }
 
+p {
+  line-height: 23px;
+}
+
 /* links */
 
 a {
@@ -35,6 +39,41 @@ a {
 a:hover,
 a:active {
   color: #d4b44c;
+}
+
+.button {
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:active {
+  color: #2b283a;
+  background: #f3e885;
+}
+
+.dark-btn {
+  background: #5f29a3;
+  color: whitesmoke;
+}
+
+.mid-btn {
+  background: #f0e0ff;
+  color: #5f29a3;
+}
+
+.dark-btn,
+.mid-btn {
+  display: inline-block;
+}
+
+.light-btn {
+  color: #5f29a3;
+  background: whitesmoke;
+  display: inline-block;
 }
 
 /* layout */
