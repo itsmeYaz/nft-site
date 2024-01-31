@@ -7,19 +7,8 @@ body {
   margin: 0;
 }
 
-header {
-  background: #5f29a4;
-  padding: 45px 0;
-}
-/* 
-Challenge:
-1. Add CSS so the text in the first section 
-   renders correctly. 
-⚠️ Watch out for the amount of white space 
-   you have between the start of the section 
-   and the h2.
-⚠️ Don't write too much code!
-*/
+/* typography */
+
 h1 {
   font-size: 36px;
   color: whitesmoke;
@@ -36,9 +25,56 @@ h3 {
   margin: 0;
 }
 
-section {
+/* links */
+
+a {
+  color: #ef5839;
+  text-decoration: underline dotted;
+}
+
+a:hover,
+a:active {
+  color: #d4b44c;
+}
+
+/* layout */
+
+header,
+section,
+footer {
   padding: 45px 0;
 }
+
+header,
+.section-two {
+  background: #5f29a4;
+}
+
+.container {
+  width: 620px;
+  margin: 0 auto;
+}
+
+.section-two {
+  color: whitesmoke;
+}
+
 .mai-image {
   width: 100%;
+}
+
+.section-two-img {
+  width: 300px;
+  border-radius: 4.6px;
+}
+
+.section-two-img-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  font-size: 16px;
+  color: #5f29a3;
+  text-align: center;
 }
